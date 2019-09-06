@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TVTinggi"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:text="Tinggi"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/ETtinggi"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/TVpanjang"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="Panjang"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/ETpanjang"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/TVlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lebar"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/ETlebar"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btnhitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="24.0"
+        android:textAlignment="center"
+        android:textSize="32sp" />
+</LinearLayout>
